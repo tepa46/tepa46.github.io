@@ -54,6 +54,11 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+iconify-icon{
+  font-size: 36px;
+  margin-right: 10px;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -442,9 +447,9 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# Interests
+# Skills
 --------------------------------------------------------------*/
-.interests .icon-box {
+.skills .icon-box {
   display: flex;
   align-items: center;
   padding: 20px;
@@ -452,13 +457,13 @@ section .container {
   transition: ease-in-out 0.3s;
 }
 
-.interests .icon-box i {
+.skills .icon-box i {
   font-size: 32px;
   padding-right: 10px;
   line-height: 1;
 }
 
-.interests .icon-box h3 {
+.skills .icon-box h3 {
   font-weight: 700;
   margin: 0;
   padding: 0;
@@ -467,13 +472,8 @@ section .container {
   color: #fff;
 }
 
-.interests .icon-box:hover {
+.skills .icon-box:hover {
   background: rgba(255, 255, 255, 0.12);
-}
-
-iconify-icon{
-  font-size: 36px;
-  margin-right: 10px;
 }
 
 /*--------------------------------------------------------------
