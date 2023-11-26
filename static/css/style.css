@@ -621,6 +621,7 @@ section .container {
   padding: 20px;
   width: 100%;
   background: rgba(255, 255, 255, 0.08);
+  transition: ease-in-out 0.3s;
 }
 
 .olympiads a{
@@ -649,6 +650,10 @@ section .container {
   line-height: 24px;
   font-size: 14px;
   margin: 0 0 0 68px;
+}
+
+.olympiads .info-box:hover {
+  background: rgba(255, 255, 255, 0.12);
 }
 
 /*--------------------------------------------------------------
@@ -687,6 +692,14 @@ section .container {
   line-height: 24px;
   font-size: 14px;
   margin: 0 0 0 68px;
+}
+
+.contact .box {
+  transition: ease-in-out 0.3s;
+}
+
+.contact .box:hover {
+  background: rgba(255, 255, 255, 0.12);
 }
 
 /*--------------------------------------------------------------
