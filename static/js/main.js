@@ -191,3 +191,7 @@
   new PureCounter();
 
 })()
+
+function href(web) {
+  window.open(web, '_blank');
+}
